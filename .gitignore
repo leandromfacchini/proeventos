@@ -480,3 +480,103 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+
+
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# =========================
+# Angular build
+# =========================
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Angular cache
+.angular/cache/
+
+# =========================
+# Environment files
+# =========================
+src/environments/*.local.ts
+src/environments/*.prod.ts
+
+# =========================
+# IDEs and Editors
+# =========================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains (WebStorm / IntelliJ / Rider)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS files
+# =========================
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Angular / Testing
+# =========================
+karma.conf.js
+junit.xml
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
+.cache/
+
+# =========================
+# Firebase
+# =========================
+.firebase/
